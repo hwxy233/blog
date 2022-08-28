@@ -114,6 +114,8 @@ fatal: Fetched in submodule path 'themes/cactus', but it did not contain 5cfea97
 ```bash
 rm -rf themes/cactus
 
+rm -rf /.git/modules/*
+
 # 然后删除.gitmodules里面的内容
 
 # 然后再删除.git/config里面的内容
