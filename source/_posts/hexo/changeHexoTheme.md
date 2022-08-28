@@ -89,3 +89,39 @@ git push
 7:34:36 PM: Site is live ✨
 ```
 
+# 3. 这样虽然成功了可是自己的`_config.yml`没有生效
+
+1. 因为`submodule`是对目标项目某次提交的索引
+2. 而对配置文件的修改在提交后如果不`push`到目标项目的话部署时是拉取不到对应的提交的
+
+```bash
+8:11:15 PM: Creating deploy upload records
+8:11:15 PM: Failing build: Failed to prepare repo
+8:11:15 PM: Failed during stage 'preparing repo': Error checking out submodules: Submodule 'themes/cactus' (https://github.com/probberechts/hexo-theme-cactus.git) registered for path 'themes/cactus'
+Cloning into '/opt/build/repo/themes/cactus'...
+fatal: remote error: upload-pack: not our ref 5cfea976a4076cb4b51f0aba79ac7aa9f27b1cee
+fatal: Fetched in submodule path 'themes/cactus', but it did not contain 5cfea976a4076cb4b51f0aba79ac7aa9f27b1cee. Direct fetching of that commit failed.
+: exit status 128
+8:11:15 PM: Finished processing build request in 2.584416391s
+```
+
+# 4. fork主题的代码
+
+1. 既然这样只能`fork`下主题的仓库
+2. 然后添加`submodule`时用自己`fork`的仓库地址，这样就可以使用自己的配置文件了
+3. 删除`submodule`
+
+```bash
+rm -rf themes/cactus
+
+# 然后删除.gitmodules里面的内容
+
+# 然后再删除.git/config里面的内容
+```
+
+4. 修改`fork`的项目然后提交
+5. 重新添加`submodule`
+
+```bash
+```
+
