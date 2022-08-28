@@ -13,7 +13,7 @@ tags: ["Hexo","Hexo Theme"]
 
 2. 但是`git push`推送时出现了报错
 
-```ba
+```bash
 6:10:34 PM: Error checking out submodules: fatal: No url found for submodule path 'themes/cactus' in .gitmodules
 6:10:34 PM: Creating deploy upload records
 6:10:34 PM: Failing build: Failed to prepare repo
@@ -60,5 +60,32 @@ git submodule add https://github.com/probberechts/hexo-theme-cactus.git themes/c
 cd themes
 
 cp cactus_config.yml cactus/_config.yml
+```
+
+5. 提交和重新部署
+
+```bash
+git add .
+
+git commit -m "Bug Fix: theme set."
+
+git push
+```
+
+6. 成功
+
+```bash
+7:34:33 PM: Started saving maven dependencies
+7:34:33 PM: Finished saving maven dependencies
+7:34:33 PM: Started saving boot dependencies
+7:34:33 PM: Finished saving boot dependencies
+7:34:33 PM: Started saving rust rustup cache
+7:34:33 PM: Finished saving rust rustup cache
+7:34:33 PM: Started saving go dependencies
+7:34:33 PM: Finished saving go dependencies
+7:34:33 PM: Build script success
+7:34:33 PM: Uploading Cache of size 121.2MB
+7:34:34 PM: Finished processing build request in 17.453636981s
+7:34:36 PM: Site is live ✨
 ```
 
