@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1625301138989" />
+        <option name="importOrderConfigFilePath" value="$USER_HOME$/work/moji/import_order.importorder" />
+        <option name="importOrderFromFile" value="true" />
+        <option name="importOrdering" value="ECLIPSE_44" />
+        <option name="name" value="keep" />
+        <option name="pathToConfigFileJava" value="$USER_HOME$/work/moji/java_format.xml" />
+        <option name="selectedJavaProfile" value="KeepJavaStyle" />
+        <option name="useForLiveTemplates" value="true" />
+      </Settings>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

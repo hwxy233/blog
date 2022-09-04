@@ -1,8 +1,8 @@
 ---
 title: Change Hexo Theme
 date: 2022-08-28 18:50:58
-categories: ["Blog"]
-tags: ["Hexo","Hexo Theme"]
+categories: ["Hexo"]
+tags: ["Hexo Theme"]
 ---
 
 # Hexo修改主题遇到的问题
