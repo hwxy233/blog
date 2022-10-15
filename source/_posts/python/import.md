@@ -1,5 +1,5 @@
 ---
-title: Import in python
+title: Import该怎么用
 date: 2022-09-11 21:15:28
 categories: ["Python"]
 tags: ["Basic"]

@@ -1,5 +1,5 @@
 ---
-title: docker-compose elk movielens
+title: 使用docker-compose启动elk并导入movielens数据集
 date: 2022-10-15 14:41:00
 categories: ["Docker"]
 tags: ["docker-compose", "ELK"]

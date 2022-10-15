@@ -1,5 +1,5 @@
 ---
-title: Function argument **kwds
+title: 关于函数里的**kwds
 date: 2022-10-01 11:49:05
 categories: ["Python"]
 tags: ["Basic"]
