@@ -28,8 +28,7 @@ git clone https://github.com/deviantony/docker-elk.git
 1. 修改`elasticsearch/config/elasticsearch.yml`里的`xpack`配置，这里保留了认证功能
 
 ```
--xpack.license.self_generated.type: trial
-+xpack.license.self_generated.type: basic
+xpack.license.self_generated.type: basic
 ```
 
 ### 2.2 下载moveielens数据集
