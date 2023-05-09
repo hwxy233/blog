@@ -1,6 +1,6 @@
 ---
 title: Update git submodule
-date: 2022-09-04 11:33:28
+date: 2023-05-09 21:43:28
 categories: ["Git"]
 tags: ["command"]
 
