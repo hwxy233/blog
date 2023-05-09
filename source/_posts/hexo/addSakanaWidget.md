@@ -2,7 +2,7 @@
 title: Cactus添加石蒜模拟器Sakana Widget
 date: 2022-09-04 11:33:28
 categories: ["Hexo"]
-tags: ["Hexo Theme"]
+tags: ["theme"]
 ---
 
 # Cactus添加石蒜模拟器Sakana Widget

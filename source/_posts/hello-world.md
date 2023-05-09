@@ -2,7 +2,7 @@
 title: Hello World
 date: 2022-08-26 17:43:09
 categories: ["Blog"]
-tags: ["Hexo"]
+tags: ["command"]
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
@@ -15,6 +15,13 @@ $ hexo new "My New Post"
 ```
 
 More info: [Writing](https://hexo.io/docs/writing.html)
+
+```bash
+# --path means the new post will create to the given path
+hexo new post --path docker/Docker\ and\ Kubernetes:\ The\ Complete\ Guide/S1/l8 "Install"
+```
+
+
 
 ### Run server
 

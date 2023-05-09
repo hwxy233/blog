@@ -2,7 +2,7 @@
 title: Mac系统更换pip源
 date: 2022-09-02 21:17:26
 categories: ["Python"]
-tags: ["Env"]
+tags: ["env"]
 ---
 
 # Mac系统更换pip源

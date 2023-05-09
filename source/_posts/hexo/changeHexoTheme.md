@@ -2,7 +2,7 @@
 title: Hexo修改主题遇到的问题
 date: 2022-08-28 18:50:58
 categories: ["Hexo"]
-tags: ["Hexo Theme"]
+tags: ["theme"]
 ---
 
 # Hexo修改主题遇到的问题
