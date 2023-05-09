@@ -2,7 +2,7 @@
 title: Intro to Elasticsearch and Kibana笔记
 date: 2022-10-15 16:40:56
 categories: ["ELK"]
-tags: ["Basic"]
+tags: ["command"]
 ---
 
 # Intro to Elasticsearch and Kibana笔记
